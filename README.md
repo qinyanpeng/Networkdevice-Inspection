@@ -10,7 +10,7 @@
 - 锐捷:ruijieRSR50X84 , ruijieS5750C , ruijieS6120 , ruijieS7808C
 - F5: F5 , F5VE
 - 山石: hillstoneSG6000
-- 迪普: DPADX3000TSGSNetmiko
+- 迪普: DPADX3000TSGS
 - 飞塔: fortigate301
 - 深信服:sangfor
 - 中创信测:ZCTT
