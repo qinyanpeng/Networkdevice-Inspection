@@ -9,8 +9,8 @@
 ── README.md
 ├── check_version.py 							#版本巡检入库脚本入口脚本为check_version.py			
 ├── check_version.sh 						 	#版本巡检启动脚本，运行check_version.py，方便打印日志。
-├── config.py 									#配置文件：设备信息、位置、用户名密码
-├── device 										#各设备巡检代码
+├── config.py 									  #配置文件：设备信息、位置、用户名密码
+├── device 										    #各设备巡检代码
 │   ├── ABTNetmiko.py
 │   ├── DPADX3000TSGSNetmiko.py
 │   ├── F5.py
@@ -46,11 +46,11 @@
 │   ├── ruijieS6120Netmiko.py
 │   ├── ruijieS7808CNetmiko.py
 │   └── sangforNetmiko.py
-├── log											#存放run.sh/check_version.sh启动脚本日志
-├── main.py										#除version之外的cpu、内存、电源等巡检入口脚本
-├── report 										#存放巡检结果
-├── run.sh                                      #main.py启动的脚本
-└── sendemail.py								#发送邮件脚本，需配置发送邮箱信息
+├── log											            #存放run.sh/check_version.sh启动脚本日志
+├── main.py										          #除version之外的cpu、内存、电源等巡检入口脚本
+├── report 										          #存放巡检结果
+├── run.sh                              #main.py启动的脚本
+└── sendemail.py								        #发送邮件脚本，需配置发送邮箱信息
 #### 已适配巡检网络设备：
 - 思科: cisco4431 , ciscoASR1000 , ciscoN7k , ciscoASA5585 , ciscoN5k
 - 华三: h3cF1070 , h3cS10500 ,  h3cS12506S , h3cS7503 , h3cSw5560 ,  h3cMSR56 , h3cS12500S , h3cS6800 , h3cSr6604
