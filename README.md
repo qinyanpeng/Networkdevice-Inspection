@@ -6,7 +6,7 @@
 - 搭配定时任务可实现自动巡检。
 - 发送邮件需在sendmail.py中配置发送邮箱信息
 #### 目录介绍
-'''
+`````
 ── README.md
 ├── check_version.py 							#版本巡检入库脚本入口脚本为check_version.py			
 ├── check_version.sh 						 	#版本巡检启动脚本，运行check_version.py，方便打印日志。
@@ -52,7 +52,7 @@
 ├── report 										          #存放巡检结果
 ├── run.sh                              #main.py启动的脚本
 └── sendemail.py								        #发送邮件脚本，需配置发送邮箱信息
-'''
+`````
 #### 已适配巡检网络设备：
 - 思科: cisco4431 , ciscoASR1000 , ciscoN7k , ciscoASA5585 , ciscoN5k
 - 华三: h3cF1070 , h3cS10500 ,  h3cS12506S , h3cS7503 , h3cSw5560 ,  h3cMSR56 , h3cS12500S , h3cS6800 , h3cSr6604
