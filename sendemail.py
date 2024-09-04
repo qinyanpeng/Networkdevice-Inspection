@@ -5,18 +5,22 @@ from email.mime.multipart import MIMEMultipart
 import smtplib
 from email.mime.text import MIMEText
 
+
+###发送邮件
+####################################################
+####  【必要配置: username，passwd，mail_host】   ####
+####################################################
+#:param username: 邮箱账号 xx@163.com
+#:param passwd: 邮箱密码
+#:param recv: 邮箱接收人地址，多个账号以逗号隔开
+#:param title: 邮件标题
+#:param content: 邮件内容
+#:param mail_host: 邮箱服务器
+#:param port: 端口号
+
+
 def sendemail(username='test.163.com', passwd='password', recv=None, title='网络设备巡检报告', content='', mail_host='stmp.163.com', port=25, file=None):
-    '''
-    发送邮件函数，默认使用
-    :param username: 邮箱账号 xx@163.com
-    :param passwd: 邮箱密码
-    :param recv: 邮箱接收人地址，多个账号以逗号隔开
-    :param title: 邮件标题
-    :param content: 邮件内容
-    :param mail_host: 邮箱服务器
-    :param port: 端口号
-    :return:
-    '''
+
     if file:
         msg = MIMEMultipart()
 
