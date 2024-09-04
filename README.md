@@ -66,6 +66,7 @@
 - 中创信测: ZCTT
 - ZDNS
 - Radware
+- Revierbad
 - 安博通
 #### 已适配巡检项：
 - cpu
