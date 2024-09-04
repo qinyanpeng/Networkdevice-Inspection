@@ -1,7 +1,8 @@
 # 网络设备巡检脚本
 #### 脚本介绍
 - 脚本通过SSH方式对网络设备进行巡检，运行run.sh或者check_version.sh启动脚本后，巡检完成后结果以excel文件输出到report目录中。
-- 巡检项的阈值在device类中设定。
+- 巡检项的阈值在device目录下类函数中设定。
+- 巡检结果判断逻辑在各个设备的脚本中，对操作系统版本有敏感性，版本不同可能需要调整判断逻辑。
 - 搭配定时任务可实现自动巡检。
 #### 已适配巡检网络设备：
 - 思科: cisco4431 , ciscoASR1000 , ciscoN7k , ciscoASA5585 , ciscoN5k
@@ -12,8 +13,8 @@
 - 山石: hillstoneSG6000
 - 迪普: DPADX3000TSGS
 - 飞塔: fortigate301
-- 深信服:sangfor
-- 中创信测:ZCTT
+- 深信服: sangfor
+- 中创信测: ZCTT
 - ZDNS
 - Radware
 - 安博通
